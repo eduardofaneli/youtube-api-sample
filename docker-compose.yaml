@@ -8,8 +8,8 @@ services:
       args:
         NODE_ENV: production
         CACHE_TTL: 43200
-        YOUTUBE_API_KEY: AIzaSyDCWlChZ0CLy9N-Bp1_aSkxLQLaj88K4aU
-        YOUTUBE_CHANNEL_ID: UC8GoStv0qTHZLikuiuSWvAg
+        YOUTUBE_API_KEY: YOUR-API-KEY
+        YOUTUBE_CHANNEL_ID: YOUR-CHANNEL-ID
     ports:
       - 3000:3000
 
